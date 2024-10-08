@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6528AE562CB4FE4F00D48DD1 /* CatologyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE552CB4FE4F00D48DD1 /* CatologyApp.swift */; };
+		6528AE582CB4FE4F00D48DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE572CB4FE4F00D48DD1 /* ContentView.swift */; };
+		6528AE5A2CB4FE5000D48DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6528AE592CB4FE5000D48DD1 /* Assets.xcassets */; };
+		6528AE5E2CB4FE5000D48DD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6528AE5D2CB4FE5000D48DD1 /* Preview Assets.xcassets */; };
+		6528AE682CB4FE5000D48DD1 /* CatologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE672CB4FE5000D48DD1 /* CatologyTests.swift */; };
+		6528AE722CB4FE5000D48DD1 /* CatologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE712CB4FE5000D48DD1 /* CatologyUITests.swift */; };
+		6528AE742CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE732CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift */; };
+		6538BE4D2CB5066700391727 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6538BE4C2CB5066700391727 /* Launch Screen.storyboard */; };
+		CA78A0824A5691BFA7968CB1 /* Pods_Catology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DF302FDA7340378BFD1F0 /* Pods_Catology.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6528AE642CB4FE5000D48DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6528AE4A2CB4FE4E00D48DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6528AE512CB4FE4E00D48DD1;
+			remoteInfo = Catology;
+		};
+		6528AE6E2CB4FE5000D48DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6528AE4A2CB4FE4E00D48DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6528AE512CB4FE4E00D48DD1;
+			remoteInfo = Catology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B88A9F3F5529E60EBD85FAA /* Pods-Catology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catology.release.xcconfig"; path = "Target Support Files/Pods-Catology/Pods-Catology.release.xcconfig"; sourceTree = "<group>"; };
+		6528AE522CB4FE4F00D48DD1 /* Catology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6528AE552CB4FE4F00D48DD1 /* CatologyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyApp.swift; sourceTree = "<group>"; };
+		6528AE572CB4FE4F00D48DD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6528AE592CB4FE5000D48DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6528AE5B2CB4FE5000D48DD1 /* Catology.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Catology.entitlements; sourceTree = "<group>"; };
+		6528AE5D2CB4FE5000D48DD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6528AE632CB4FE5000D48DD1 /* CatologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6528AE672CB4FE5000D48DD1 /* CatologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyTests.swift; sourceTree = "<group>"; };
+		6528AE6D2CB4FE5000D48DD1 /* CatologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6528AE712CB4FE5000D48DD1 /* CatologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyUITests.swift; sourceTree = "<group>"; };
+		6528AE732CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6538BE4C2CB5066700391727 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		95C8667765344838135E42AE /* Pods-Catology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catology.debug.xcconfig"; path = "Target Support Files/Pods-Catology/Pods-Catology.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4DF302FDA7340378BFD1F0 /* Pods_Catology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6528AE4F2CB4FE4E00D48DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA78A0824A5691BFA7968CB1 /* Pods_Catology.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6528AE602CB4FE5000D48DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6528AE6A2CB4FE5000D48DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EFB6498D9E25415B6C39340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA4DF302FDA7340378BFD1F0 /* Pods_Catology.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6528AE492CB4FE4E00D48DD1 = {
+			isa = PBXGroup;
+			children = (
+				6528AE542CB4FE4F00D48DD1 /* Catology */,
+				6528AE662CB4FE5000D48DD1 /* CatologyTests */,
+				6528AE702CB4FE5000D48DD1 /* CatologyUITests */,
+				6528AE532CB4FE4F00D48DD1 /* Products */,
+				98D75BBAF4DB525EDE7BCF73 /* Pods */,
+				1EFB6498D9E25415B6C39340 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6528AE532CB4FE4F00D48DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6528AE522CB4FE4F00D48DD1 /* Catology.app */,
+				6528AE632CB4FE5000D48DD1 /* CatologyTests.xctest */,
+				6528AE6D2CB4FE5000D48DD1 /* CatologyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6528AE542CB4FE4F00D48DD1 /* Catology */ = {
+			isa = PBXGroup;
+			children = (
+				6528AE552CB4FE4F00D48DD1 /* CatologyApp.swift */,
+				6528AE572CB4FE4F00D48DD1 /* ContentView.swift */,
+				6528AE592CB4FE5000D48DD1 /* Assets.xcassets */,
+				6528AE5B2CB4FE5000D48DD1 /* Catology.entitlements */,
+				6528AE5C2CB4FE5000D48DD1 /* Preview Content */,
+				6538BE4C2CB5066700391727 /* Launch Screen.storyboard */,
+			);
+			path = Catology;
+			sourceTree = "<group>";
+		};
+		6528AE5C2CB4FE5000D48DD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6528AE5D2CB4FE5000D48DD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6528AE662CB4FE5000D48DD1 /* CatologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6528AE672CB4FE5000D48DD1 /* CatologyTests.swift */,
+			);
+			path = CatologyTests;
+			sourceTree = "<group>";
+		};
+		6528AE702CB4FE5000D48DD1 /* CatologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6528AE712CB4FE5000D48DD1 /* CatologyUITests.swift */,
+				6528AE732CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift */,
+			);
+			path = CatologyUITests;
+			sourceTree = "<group>";
+		};
+		98D75BBAF4DB525EDE7BCF73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95C8667765344838135E42AE /* Pods-Catology.debug.xcconfig */,
+				2B88A9F3F5529E60EBD85FAA /* Pods-Catology.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6528AE512CB4FE4E00D48DD1 /* Catology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6528AE772CB4FE5000D48DD1 /* Build configuration list for PBXNativeTarget "Catology" */;
+			buildPhases = (
+				F679E60CA0BB06736DD749BB /* [CP] Check Pods Manifest.lock */,
+				6528AE4E2CB4FE4E00D48DD1 /* Sources */,
+				6528AE4F2CB4FE4E00D48DD1 /* Frameworks */,
+				6528AE502CB4FE4E00D48DD1 /* Resources */,
+				380457B13BBCBB3B6ED3FAB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Catology;
+			productName = Catology;
+			productReference = 6528AE522CB4FE4F00D48DD1 /* Catology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6528AE622CB4FE5000D48DD1 /* CatologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6528AE7A2CB4FE5000D48DD1 /* Build configuration list for PBXNativeTarget "CatologyTests" */;
+			buildPhases = (
+				6528AE5F2CB4FE5000D48DD1 /* Sources */,
+				6528AE602CB4FE5000D48DD1 /* Frameworks */,
+				6528AE612CB4FE5000D48DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6528AE652CB4FE5000D48DD1 /* PBXTargetDependency */,
+			);
+			name = CatologyTests;
+			productName = CatologyTests;
+			productReference = 6528AE632CB4FE5000D48DD1 /* CatologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6528AE6C2CB4FE5000D48DD1 /* CatologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6528AE7D2CB4FE5000D48DD1 /* Build configuration list for PBXNativeTarget "CatologyUITests" */;
+			buildPhases = (
+				6528AE692CB4FE5000D48DD1 /* Sources */,
+				6528AE6A2CB4FE5000D48DD1 /* Frameworks */,
+				6528AE6B2CB4FE5000D48DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6528AE6F2CB4FE5000D48DD1 /* PBXTargetDependency */,
+			);
+			name = CatologyUITests;
+			productName = CatologyUITests;
+			productReference = 6528AE6D2CB4FE5000D48DD1 /* CatologyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6528AE4A2CB4FE4E00D48DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6528AE512CB4FE4E00D48DD1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6528AE622CB4FE5000D48DD1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6528AE512CB4FE4E00D48DD1;
+					};
+					6528AE6C2CB4FE5000D48DD1 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6528AE512CB4FE4E00D48DD1;
+					};
+				};
+			};
+			buildConfigurationList = 6528AE4D2CB4FE4E00D48DD1 /* Build configuration list for PBXProject "Catology" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6528AE492CB4FE4E00D48DD1;
+			productRefGroup = 6528AE532CB4FE4F00D48DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6528AE512CB4FE4E00D48DD1 /* Catology */,
+				6528AE622CB4FE5000D48DD1 /* CatologyTests */,
+				6528AE6C2CB4FE5000D48DD1 /* CatologyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6528AE502CB4FE4E00D48DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6538BE4D2CB5066700391727 /* Launch Screen.storyboard in Resources */,
+				6528AE5E2CB4FE5000D48DD1 /* Preview Assets.xcassets in Resources */,
+				6528AE5A2CB4FE5000D48DD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6528AE612CB4FE5000D48DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6528AE6B2CB4FE5000D48DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		380457B13BBCBB3B6ED3FAB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catology/Pods-Catology-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catology/Pods-Catology-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catology/Pods-Catology-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F679E60CA0BB06736DD749BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catology-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6528AE4E2CB4FE4E00D48DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6528AE582CB4FE4F00D48DD1 /* ContentView.swift in Sources */,
+				6528AE562CB4FE4F00D48DD1 /* CatologyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6528AE5F2CB4FE5000D48DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6528AE682CB4FE5000D48DD1 /* CatologyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6528AE692CB4FE5000D48DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6528AE742CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift in Sources */,
+				6528AE722CB4FE5000D48DD1 /* CatologyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6528AE652CB4FE5000D48DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6528AE512CB4FE4E00D48DD1 /* Catology */;
+			targetProxy = 6528AE642CB4FE5000D48DD1 /* PBXContainerItemProxy */;
+		};
+		6528AE6F2CB4FE5000D48DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6528AE512CB4FE4E00D48DD1 /* Catology */;
+			targetProxy = 6528AE6E2CB4FE5000D48DD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6528AE752CB4FE5000D48DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6528AE762CB4FE5000D48DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6528AE782CB4FE5000D48DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C8667765344838135E42AE /* Pods-Catology.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Catology/Catology.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Catology/Preview Content\"";
+				DEVELOPMENT_TEAM = 6R373M5SPD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emman.Catology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6528AE792CB4FE5000D48DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B88A9F3F5529E60EBD85FAA /* Pods-Catology.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Catology/Catology.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Catology/Preview Content\"";
+				DEVELOPMENT_TEAM = 6R373M5SPD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emman.Catology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6528AE7B2CB4FE5000D48DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R373M5SPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emman.CatologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catology.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Catology";
+			};
+			name = Debug;
+		};
+		6528AE7C2CB4FE5000D48DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R373M5SPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emman.CatologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catology.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Catology";
+			};
+			name = Release;
+		};
+		6528AE7E2CB4FE5000D48DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R373M5SPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emman.CatologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Catology;
+			};
+			name = Debug;
+		};
+		6528AE7F2CB4FE5000D48DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R373M5SPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emman.CatologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Catology;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6528AE4D2CB4FE4E00D48DD1 /* Build configuration list for PBXProject "Catology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6528AE752CB4FE5000D48DD1 /* Debug */,
+				6528AE762CB4FE5000D48DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6528AE772CB4FE5000D48DD1 /* Build configuration list for PBXNativeTarget "Catology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6528AE782CB4FE5000D48DD1 /* Debug */,
+				6528AE792CB4FE5000D48DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6528AE7A2CB4FE5000D48DD1 /* Build configuration list for PBXNativeTarget "CatologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6528AE7B2CB4FE5000D48DD1 /* Debug */,
+				6528AE7C2CB4FE5000D48DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6528AE7D2CB4FE5000D48DD1 /* Build configuration list for PBXNativeTarget "CatologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6528AE7E2CB4FE5000D48DD1 /* Debug */,
+				6528AE7F2CB4FE5000D48DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6528AE4A2CB4FE4E00D48DD1 /* Project object */;
+}
