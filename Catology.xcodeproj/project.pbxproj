@@ -15,6 +15,7 @@
 		6528AE722CB4FE5000D48DD1 /* CatologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE712CB4FE5000D48DD1 /* CatologyUITests.swift */; };
 		6528AE742CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE732CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift */; };
 		6538BE4D2CB5066700391727 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6538BE4C2CB5066700391727 /* Launch Screen.storyboard */; };
+		CA78A0824A5691BFA7968CB1 /* Pods_Catology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DF302FDA7340378BFD1F0 /* Pods_Catology.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B88A9F3F5529E60EBD85FAA /* Pods-Catology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catology.release.xcconfig"; path = "Target Support Files/Pods-Catology/Pods-Catology.release.xcconfig"; sourceTree = "<group>"; };
 		6528AE522CB4FE4F00D48DD1 /* Catology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6528AE552CB4FE4F00D48DD1 /* CatologyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyApp.swift; sourceTree = "<group>"; };
 		6528AE572CB4FE4F00D48DD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		6528AE712CB4FE5000D48DD1 /* CatologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyUITests.swift; sourceTree = "<group>"; };
 		6528AE732CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6538BE4C2CB5066700391727 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		95C8667765344838135E42AE /* Pods-Catology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catology.debug.xcconfig"; path = "Target Support Files/Pods-Catology/Pods-Catology.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4DF302FDA7340378BFD1F0 /* Pods_Catology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA78A0824A5691BFA7968CB1 /* Pods_Catology.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EFB6498D9E25415B6C39340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA4DF302FDA7340378BFD1F0 /* Pods_Catology.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6528AE492CB4FE4E00D48DD1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,8 @@
 				6528AE662CB4FE5000D48DD1 /* CatologyTests */,
 				6528AE702CB4FE5000D48DD1 /* CatologyUITests */,
 				6528AE532CB4FE4F00D48DD1 /* Products */,
+				98D75BBAF4DB525EDE7BCF73 /* Pods */,
+				1EFB6498D9E25415B6C39340 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +147,15 @@
 			path = CatologyUITests;
 			sourceTree = "<group>";
 		};
+		98D75BBAF4DB525EDE7BCF73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95C8667765344838135E42AE /* Pods-Catology.debug.xcconfig */,
+				2B88A9F3F5529E60EBD85FAA /* Pods-Catology.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6528AE772CB4FE5000D48DD1 /* Build configuration list for PBXNativeTarget "Catology" */;
 			buildPhases = (
+				F679E60CA0BB06736DD749BB /* [CP] Check Pods Manifest.lock */,
 				6528AE4E2CB4FE4E00D48DD1 /* Sources */,
 				6528AE4F2CB4FE4E00D48DD1 /* Frameworks */,
 				6528AE502CB4FE4E00D48DD1 /* Resources */,
+				380457B13BBCBB3B6ED3FAB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +283,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		380457B13BBCBB3B6ED3FAB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catology/Pods-Catology-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catology/Pods-Catology-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catology/Pods-Catology-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F679E60CA0BB06736DD749BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catology-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6528AE4E2CB4FE4E00D48DD1 /* Sources */ = {
@@ -417,6 +485,7 @@
 		};
 		6528AE782CB4FE5000D48DD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C8667765344838135E42AE /* Pods-Catology.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -427,6 +496,7 @@
 				DEVELOPMENT_TEAM = 6R373M5SPD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -439,7 +509,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
@@ -457,6 +527,7 @@
 		};
 		6528AE792CB4FE5000D48DD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B88A9F3F5529E60EBD85FAA /* Pods-Catology.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +538,7 @@
 				DEVELOPMENT_TEAM = 6R373M5SPD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -479,7 +551,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
