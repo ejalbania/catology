@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6519BE352CB52A5B007C007B /* CatologyFactsProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE342CB52A5B007C007B /* CatologyFactsProviderService.swift */; };
+		6519BE382CB52BCE007C007B /* CatologyFactsServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE372CB52BCE007C007B /* CatologyFactsServiceMock.swift */; };
+		6519BE402CB52ED4007C007B /* Array+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE3F2CB52ED4007C007B /* Array+extension.swift */; };
+		6519BE422CB52FCB007C007B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE412CB52FCB007C007B /* Operators.swift */; };
+		6519BE452CB53C91007C007B /* CatologyMeowFactsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE442CB53C91007C007B /* CatologyMeowFactsRequest.swift */; };
+		6519BE482CB53F97007C007B /* CatologyMeowFactsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE472CB53F97007C007B /* CatologyMeowFactsProvider.swift */; };
+		6519BE4B2CB54890007C007B /* CatologyFactsRequestErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE4A2CB54890007C007B /* CatologyFactsRequestErrorModel.swift */; };
+		6519BE4D2CB54B44007C007B /* Int+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE4C2CB54B44007C007B /* Int+extension.swift */; };
+		6519BE4F2CB61BEE007C007B /* CatologyViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE4E2CB61BEE007C007B /* CatologyViewModelTests.swift */; };
+		6519BE522CB67A2D007C007B /* CatologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE502CB67A2D007C007B /* CatologyUITests.swift */; };
+		6519BE532CB67A2D007C007B /* CatologyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6519BE512CB67A2D007C007B /* CatologyUITestsLaunchTests.swift */; };
 		6528AE562CB4FE4F00D48DD1 /* CatologyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE552CB4FE4F00D48DD1 /* CatologyApp.swift */; };
-		6528AE582CB4FE4F00D48DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE572CB4FE4F00D48DD1 /* ContentView.swift */; };
+		6528AE582CB4FE4F00D48DD1 /* CatologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE572CB4FE4F00D48DD1 /* CatologyView.swift */; };
 		6528AE5A2CB4FE5000D48DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6528AE592CB4FE5000D48DD1 /* Assets.xcassets */; };
 		6528AE5E2CB4FE5000D48DD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6528AE5D2CB4FE5000D48DD1 /* Preview Assets.xcassets */; };
-		6528AE682CB4FE5000D48DD1 /* CatologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE672CB4FE5000D48DD1 /* CatologyTests.swift */; };
-		6528AE722CB4FE5000D48DD1 /* CatologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE712CB4FE5000D48DD1 /* CatologyUITests.swift */; };
-		6528AE742CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528AE732CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift */; };
 		6538BE4D2CB5066700391727 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6538BE4C2CB5066700391727 /* Launch Screen.storyboard */; };
+		65A124FC2CB67F71003BCB6D /* MockedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A124FB2CB67F71003BCB6D /* MockedModels.swift */; };
+		65A124FE2CB69DF7003BCB6D /* CatologyContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A124FD2CB69DF7003BCB6D /* CatologyContentModel.swift */; };
+		65A125012CB752EA003BCB6D /* CatologyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A125002CB752EA003BCB6D /* CatologyViewModel.swift */; };
+		65A125042CB7A1FD003BCB6D /* ProgressViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A125032CB7A1FD003BCB6D /* ProgressViewLoader.swift */; };
 		CA78A0824A5691BFA7968CB1 /* Pods_Catology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DF302FDA7340378BFD1F0 /* Pods_Catology.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,18 +49,30 @@
 
 /* Begin PBXFileReference section */
 		2B88A9F3F5529E60EBD85FAA /* Pods-Catology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catology.release.xcconfig"; path = "Target Support Files/Pods-Catology/Pods-Catology.release.xcconfig"; sourceTree = "<group>"; };
+		6519BE342CB52A5B007C007B /* CatologyFactsProviderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyFactsProviderService.swift; sourceTree = "<group>"; };
+		6519BE372CB52BCE007C007B /* CatologyFactsServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyFactsServiceMock.swift; sourceTree = "<group>"; };
+		6519BE3F2CB52ED4007C007B /* Array+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+extension.swift"; sourceTree = "<group>"; };
+		6519BE412CB52FCB007C007B /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		6519BE442CB53C91007C007B /* CatologyMeowFactsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyMeowFactsRequest.swift; sourceTree = "<group>"; };
+		6519BE472CB53F97007C007B /* CatologyMeowFactsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyMeowFactsProvider.swift; sourceTree = "<group>"; };
+		6519BE4A2CB54890007C007B /* CatologyFactsRequestErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyFactsRequestErrorModel.swift; sourceTree = "<group>"; };
+		6519BE4C2CB54B44007C007B /* Int+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+extension.swift"; sourceTree = "<group>"; };
+		6519BE4E2CB61BEE007C007B /* CatologyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyViewModelTests.swift; sourceTree = "<group>"; };
+		6519BE502CB67A2D007C007B /* CatologyUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatologyUITests.swift; sourceTree = "<group>"; };
+		6519BE512CB67A2D007C007B /* CatologyUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatologyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6528AE522CB4FE4F00D48DD1 /* Catology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6528AE552CB4FE4F00D48DD1 /* CatologyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyApp.swift; sourceTree = "<group>"; };
-		6528AE572CB4FE4F00D48DD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6528AE572CB4FE4F00D48DD1 /* CatologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyView.swift; sourceTree = "<group>"; };
 		6528AE592CB4FE5000D48DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6528AE5B2CB4FE5000D48DD1 /* Catology.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Catology.entitlements; sourceTree = "<group>"; };
 		6528AE5D2CB4FE5000D48DD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6528AE632CB4FE5000D48DD1 /* CatologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6528AE672CB4FE5000D48DD1 /* CatologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyTests.swift; sourceTree = "<group>"; };
 		6528AE6D2CB4FE5000D48DD1 /* CatologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6528AE712CB4FE5000D48DD1 /* CatologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyUITests.swift; sourceTree = "<group>"; };
-		6528AE732CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6538BE4C2CB5066700391727 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		65A124FB2CB67F71003BCB6D /* MockedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedModels.swift; sourceTree = "<group>"; };
+		65A124FD2CB69DF7003BCB6D /* CatologyContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyContentModel.swift; sourceTree = "<group>"; };
+		65A125002CB752EA003BCB6D /* CatologyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatologyViewModel.swift; sourceTree = "<group>"; };
+		65A125032CB7A1FD003BCB6D /* ProgressViewLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewLoader.swift; sourceTree = "<group>"; };
 		95C8667765344838135E42AE /* Pods-Catology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catology.debug.xcconfig"; path = "Target Support Files/Pods-Catology/Pods-Catology.debug.xcconfig"; sourceTree = "<group>"; };
 		EA4DF302FDA7340378BFD1F0 /* Pods_Catology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -87,6 +111,66 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6519BE312CB52996007C007B /* services */ = {
+			isa = PBXGroup;
+			children = (
+				6519BE342CB52A5B007C007B /* CatologyFactsProviderService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		6519BE362CB52BC3007C007B /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				6519BE372CB52BCE007C007B /* CatologyFactsServiceMock.swift */,
+				65A124FB2CB67F71003BCB6D /* MockedModels.swift */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		6519BE392CB52D05007C007B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6519BE4A2CB54890007C007B /* CatologyFactsRequestErrorModel.swift */,
+				65A124FD2CB69DF7003BCB6D /* CatologyContentModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6519BE3C2CB52EB2007C007B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				6519BE3D2CB52EB6007C007B /* extensions */,
+				6519BE412CB52FCB007C007B /* Operators.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		6519BE3D2CB52EB6007C007B /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6519BE3F2CB52ED4007C007B /* Array+extension.swift */,
+				6519BE4C2CB54B44007C007B /* Int+extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		6519BE432CB53C38007C007B /* requests */ = {
+			isa = PBXGroup;
+			children = (
+				6519BE442CB53C91007C007B /* CatologyMeowFactsRequest.swift */,
+			);
+			path = requests;
+			sourceTree = "<group>";
+		};
+		6519BE462CB53F80007C007B /* providers */ = {
+			isa = PBXGroup;
+			children = (
+				6519BE472CB53F97007C007B /* CatologyMeowFactsProvider.swift */,
+			);
+			path = providers;
+			sourceTree = "<group>";
+		};
 		6528AE492CB4FE4E00D48DD1 = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +196,14 @@
 		6528AE542CB4FE4F00D48DD1 /* Catology */ = {
 			isa = PBXGroup;
 			children = (
+				65A125022CB7A1E3003BCB6D /* views */,
+				65A124FF2CB752DC003BCB6D /* viewModels */,
+				6519BE462CB53F80007C007B /* providers */,
+				6519BE432CB53C38007C007B /* requests */,
+				6519BE3C2CB52EB2007C007B /* util */,
+				6519BE392CB52D05007C007B /* models */,
+				6519BE312CB52996007C007B /* services */,
 				6528AE552CB4FE4F00D48DD1 /* CatologyApp.swift */,
-				6528AE572CB4FE4F00D48DD1 /* ContentView.swift */,
 				6528AE592CB4FE5000D48DD1 /* Assets.xcassets */,
 				6528AE5B2CB4FE5000D48DD1 /* Catology.entitlements */,
 				6528AE5C2CB4FE5000D48DD1 /* Preview Content */,
@@ -133,7 +223,8 @@
 		6528AE662CB4FE5000D48DD1 /* CatologyTests */ = {
 			isa = PBXGroup;
 			children = (
-				6528AE672CB4FE5000D48DD1 /* CatologyTests.swift */,
+				6519BE362CB52BC3007C007B /* mock */,
+				6519BE4E2CB61BEE007C007B /* CatologyViewModelTests.swift */,
 			);
 			path = CatologyTests;
 			sourceTree = "<group>";
@@ -141,10 +232,27 @@
 		6528AE702CB4FE5000D48DD1 /* CatologyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6528AE712CB4FE5000D48DD1 /* CatologyUITests.swift */,
-				6528AE732CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift */,
+				6519BE502CB67A2D007C007B /* CatologyUITests.swift */,
+				6519BE512CB67A2D007C007B /* CatologyUITestsLaunchTests.swift */,
 			);
 			path = CatologyUITests;
+			sourceTree = "<group>";
+		};
+		65A124FF2CB752DC003BCB6D /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				65A125002CB752EA003BCB6D /* CatologyViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		65A125022CB7A1E3003BCB6D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6528AE572CB4FE4F00D48DD1 /* CatologyView.swift */,
+				65A125032CB7A1FD003BCB6D /* ProgressViewLoader.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 		98D75BBAF4DB525EDE7BCF73 /* Pods */ = {
@@ -229,10 +337,12 @@
 					};
 					6528AE622CB4FE5000D48DD1 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 						TestTargetID = 6528AE512CB4FE4E00D48DD1;
 					};
 					6528AE6C2CB4FE5000D48DD1 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 						TestTargetID = 6528AE512CB4FE4E00D48DD1;
 					};
 				};
@@ -331,8 +441,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6528AE582CB4FE4F00D48DD1 /* ContentView.swift in Sources */,
+				6519BE482CB53F97007C007B /* CatologyMeowFactsProvider.swift in Sources */,
+				6528AE582CB4FE4F00D48DD1 /* CatologyView.swift in Sources */,
+				6519BE352CB52A5B007C007B /* CatologyFactsProviderService.swift in Sources */,
+				6519BE402CB52ED4007C007B /* Array+extension.swift in Sources */,
+				65A124FE2CB69DF7003BCB6D /* CatologyContentModel.swift in Sources */,
+				6519BE452CB53C91007C007B /* CatologyMeowFactsRequest.swift in Sources */,
 				6528AE562CB4FE4F00D48DD1 /* CatologyApp.swift in Sources */,
+				65A125012CB752EA003BCB6D /* CatologyViewModel.swift in Sources */,
+				6519BE4D2CB54B44007C007B /* Int+extension.swift in Sources */,
+				6519BE422CB52FCB007C007B /* Operators.swift in Sources */,
+				65A125042CB7A1FD003BCB6D /* ProgressViewLoader.swift in Sources */,
+				6519BE4B2CB54890007C007B /* CatologyFactsRequestErrorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +460,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6528AE682CB4FE5000D48DD1 /* CatologyTests.swift in Sources */,
+				6519BE4F2CB61BEE007C007B /* CatologyViewModelTests.swift in Sources */,
+				65A124FC2CB67F71003BCB6D /* MockedModels.swift in Sources */,
+				6519BE382CB52BCE007C007B /* CatologyFactsServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +470,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6528AE742CB4FE5000D48DD1 /* CatologyUITestsLaunchTests.swift in Sources */,
-				6528AE722CB4FE5000D48DD1 /* CatologyUITests.swift in Sources */,
+				6519BE532CB67A2D007C007B /* CatologyUITestsLaunchTests.swift in Sources */,
+				6519BE522CB67A2D007C007B /* CatologyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +694,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6R373M5SPD;
@@ -582,10 +705,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = emman.CatologyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catology.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Catology";
 			};
 			name = Debug;
@@ -595,6 +720,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6R373M5SPD;
@@ -605,10 +731,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = emman.CatologyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catology.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Catology";
 			};
 			name = Release;
@@ -617,6 +744,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6R373M5SPD;
@@ -627,10 +755,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = emman.CatologyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Catology;
 			};
 			name = Debug;
@@ -639,6 +768,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6R373M5SPD;
@@ -649,10 +779,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = emman.CatologyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Catology;
 			};
 			name = Release;
