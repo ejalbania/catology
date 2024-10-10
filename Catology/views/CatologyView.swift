@@ -9,7 +9,6 @@ import SwiftUI
 import Combine
 
 struct CatologyView: View {
-    @State var fact: String = ""
     @StateObject var viewModel = CatologyViewModel()
     
     var body: some View {
@@ -21,10 +20,11 @@ struct CatologyView: View {
                 HStack(alignment: .center) {
                     VStack {
                         displayImage()
+                            .cornerRadius(12)
                             .frame(width: dimension, height: dimension)
                             .padding(.top, 20)
+                            .shadow(radius: 2)
                             .clipped()
-                            
                         
                         ScrollView {
                             Spacer()
@@ -37,6 +37,10 @@ struct CatologyView: View {
                         .padding(.horizontal, 8)
                         .frame(width: dimension)
                         Spacer()
+                        
+                        if viewModel.isLoading {
+                            ProgressViewLoader()
+                        }
                     }
                 }
                 Spacer()
@@ -50,12 +54,22 @@ struct CatologyView: View {
                let url = URL(string: imageURLString) {
                 AsyncImage(
                     url: url,
-                    content: { result in
-                        result.resizable()
+                    transaction: .init(animation: .easeInOut)
+                ) { phase in
+                    if let image = phase.image {
+                        image.resizable()
                             .aspectRatio(contentMode: .fit)
-                    },
-                    placeholder: { Image("catology-logo") }
-                )
+                    } else if let error = phase.error {
+                        VStack {
+                            Image(systemName: "questionmark.diamond")
+                                .imageScale(.large)
+                            Text(error.localizedDescription)
+                            ProgressViewLoader()
+                        }.accentColor(.red)
+                    } else {
+                        ProgressViewLoader()
+                    }
+                }
             } else {
                 Image("catology-logo")
             }

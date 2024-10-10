@@ -41,6 +41,7 @@ private extension CatologyViewModel {
             self.error = failure.model
             print("Error: \(failure.model.message)")
         }
+        self.isLoading = false
     }
     
     func receive(content models: [CatologyContentModel]) {
@@ -67,7 +68,7 @@ private extension CatologyViewModel {
 extension CatologyViewModel: CatologyViewModelType {
     func performScreenClickAction() {
         if (contentModel.count - presentedIndex) <= 4 {
-            if (contentModel.count - presentedIndex) == 1 {
+            if (contentModel.count - presentedIndex) <= 1 {
                 isLoading = true
             }
             self.fetchNewContent()
