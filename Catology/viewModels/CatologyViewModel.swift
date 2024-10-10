@@ -52,7 +52,6 @@ private extension CatologyViewModel {
     }
     
     func fetchNewContent() {
-        isLoading = false
         Publishers.Zip(
             self.serviceProvider.fetchRandomFacts(),
             self.serviceProvider.fetchRandomImage()

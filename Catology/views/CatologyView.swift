@@ -61,11 +61,9 @@ struct CatologyView: View {
                             .aspectRatio(contentMode: .fit)
                     } else if let error = phase.error {
                         VStack {
-                            Image(systemName: "questionmark.diamond")
-                                .imageScale(.large)
-                            Text(error.localizedDescription)
                             ProgressViewLoader()
-                        }.accentColor(.red)
+                         Text("Something went wrong. \nRedownloading...")
+                        }
                     } else {
                         ProgressViewLoader()
                     }
