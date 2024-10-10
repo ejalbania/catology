@@ -21,7 +21,7 @@ struct ProgressViewLoader: View {
                 .rotationEffect(isAnimating ? .degrees(360): .zero)
                 .animation(.linear(duration: 1).repeatForever(autoreverses: false), value: isAnimating)
         }
-        .frame(width: 100, height: 100)
+        .frame(width: 50, height: 50)
         .padding(12)
         .onAppear { isAnimating.toggle() }
     }
