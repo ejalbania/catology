@@ -1,0 +1,10 @@
+.DS_Store
+**/.DS_Store
+Pods/*
+Podfile.lock
+
+*.xcuserstate
+Catology.xcodeproj/**
+Catology.xcworkspace/**
+xcuserdata/
+
